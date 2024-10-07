@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mr.TC Pop-up Store</title>
+</head>
+<body>
+    <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+
+<a href="https://logwork.com/countdown-timer" class="countdown-timer" data-style="circles" data-timezone="America/New_York" data-date="2024-10-07 23:59">🚨🚨🚨Flash Sale 🚨🚨🚨</a>
+    <div id="menu">This element will be removed on page load</div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var element = document.getElementById("menu");
+            if (element) {
+                element.parentNode.removeChild(element);
+            }
+        });
+    </script>
+</body>
+</html>
